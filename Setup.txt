@@ -1,0 +1,21 @@
+# Create new Expo project
+npx create-expo-app@latest SmartPantry
+
+# Navigate into project
+cd SmartPantry
+
+# Start it to make sure it works
+npx expo start
+
+# Make these Folders
+mkdir app/storage
+mkdir -p app/storage
+mkdir app/lib
+
+# Install Dependencies
+npx expo install @react-native-async-storage/async-storage
+npx expo install @expo/vector-icons
+npx expo install expo-camera
+npm install react-native-calendars
+
+Put Files in correct postions check Zip to confirm
